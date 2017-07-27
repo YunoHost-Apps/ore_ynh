@@ -15,7 +15,7 @@
     "requirements": {
         "yunohost": ">> 2.5.6"
     },
-    "multi_instance": true,
+    "multi_instance": false,
     "services": [
         "nginx",
         "php5-fpm",
@@ -37,8 +37,8 @@
                 "ask": {
                     "en": "Choose a path for orp"
                 },
-                "example": "/example",
-                "default": "/example"
+                "example": "/orp",
+                "default": "/orp"
             },
             {
                 "name": "email",
