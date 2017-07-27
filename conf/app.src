@@ -1,0 +1,6 @@
+SOURCE_URL=https://open-real-estate.info/files/OpenRealEstateV1.20.1_en.zip
+SOURCE_SUM=md5sum
+SOURCE_SUM_PRG=0441ec9cbbea22611962829db571ce0e
+SOURCE_FORMAT=zip
+SOURCE_IN_SUBDIR=false
+SOURCE_FILENAME=
