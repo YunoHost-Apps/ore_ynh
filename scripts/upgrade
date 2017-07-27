@@ -62,7 +62,7 @@ ynh_nginx_config
 
 # Set right permissions for curl installation
 sudo chown -R www-data: $final_path
-chmod  644 -R $final_path
+chmod  744 -R $final_path
 chmod  777 $final_path/protected/config/db.php
 chmod  777 $final_path/assets
 chmod  777 $final_path/protected/runtime

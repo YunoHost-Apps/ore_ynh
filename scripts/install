@@ -112,7 +112,7 @@ sudo systemctl reload nginx
 #=================================================
 # SECURE FILES AND DIRECTORIES
 #=================================================
-chmod  644 -R $final_path
+chmod  744 -R $final_path
 chmod  777 $final_path/protected/config/db.php
 chmod  777 $final_path/assets
 chmod  777 $final_path/protected/runtime
