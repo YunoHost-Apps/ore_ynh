@@ -54,7 +54,7 @@ path_url=$(ynh_normalize_url_path $path_url)
 #=================================================
 
 # Create a dedicated nginx config
-ynh_nginx_config
+ynh_add_nginx_config
 
 #=================================================
 # SECURE FILES AND DIRECTORIES

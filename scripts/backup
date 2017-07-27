@@ -52,4 +52,4 @@ ynh_backup "/etc/nginx/conf.d/$domain.d/$app.conf" "/etc/nginx/conf.d/$domain.d/
 #=================================================
 
 ynh_mysql_dump_db "$db_name" > db.sql
-ynh_backup "db.sql" "${backup_dir}/db.sql"
+ynh_backup "db.sql" "/db.sql"
