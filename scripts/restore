@@ -69,7 +69,7 @@ ynh_mysql_connect_as $db_name $db_pwd $db_name < ./db.sql
 #=================================================
 
 # Restore permissions on app files
-sudo chown -R www: $final_path
+sudo chown -R www-data: $final_path
 #=================================================
 # SECURE FILES AND DIRECTORIES
 #=================================================

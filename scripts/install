@@ -96,7 +96,7 @@ ynh_add_nginx_config
 #=================================================
 
 # Set right permissions for curl install
-sudo chown -R wwww: $final_path
+sudo chown -R www-data: $final_path
 
 # Set the app as temporarily public for curl call
 ynh_app_setting_set $app unprotected_uris "/"
