@@ -22,7 +22,6 @@ ynh_abort_if_errors
 
 domain=$YNH_APP_ARG_DOMAIN
 path_url=$YNH_APP_ARG_PATH
-admin=$YNH_APP_ARG_ADMIN
 is_public=$YNH_APP_ARG_IS_PUBLIC
 email=$YNH_APP_ARG_EMAIL
 
@@ -77,7 +76,7 @@ db_name=$(ynh_sanitize_dbid $app)
 ynh_app_setting_set $app db_name $db_name
 ynh_mysql_setup_db $db_name $db_name
 
-echo "Database name:$db_name <br> Database user:$db_name <br> Database password:$db_pass" | mail -s "Database setting for ORE" -aFrom:Open real estate\<orp@$domain\> $email
+echo "Database name:$db_name <br> Database user:$db_name <br> Database password:$db_pwd" | mail -s "Database setting for ORE" -aFrom:Open real estate\<orp@$domain\> $email
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
