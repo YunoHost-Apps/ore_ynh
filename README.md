@@ -7,15 +7,15 @@
 <b> *******Currently ORE can only be installed on root path. Eg. ore.domain.tld or domain.tld******* </b>
 
 ## Postinstallation
-<b>You will have to do manually postinstallation.</b>
+<b>You will have to do postinstallation manually.</b>
 
-Go to domain.tld + `/index.php?r=install/main/index` and and enter the database setting received in the email.<br>
+Add `/index.php?r=install/main/index` in front of your domain and and enter the database setting received through email.<br>
 After this you need to set 'read-only' 644 right for the file <b>protected/config/db.php</b> with this command:
 ```bash
 chmod 644 /var/www/opr/protected/config/db.php
 ```
 ## To-Do's
-- [ ]Make upgrade script better so that sources get updated.
-- [ ]Installtion on sub paths.
-- [ ]Use curl for installation.
-- [ ]Redirection to /index.php?r=install/main/index for postinstallation(if curl is used for the installation then this will not be needed)
+- [ ] Make upgrade script better so that sources get updated.
+- [ ] Installtion on sub paths.
+- [ ] Use curl for installation.
+- [ ] Redirection to /index.php?r=install/main/index for postinstallation(if curl is used for the installation then this will not be needed)
