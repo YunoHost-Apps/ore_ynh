@@ -3,9 +3,8 @@
     "id": "ore",
     "packaging_format": 1,
     "description": {
-        "en": "Open Real Estate package for YunoHost.",
-
-    },
+        "en": "Open Real Estate package for YunoHost."
+},
     "url": "https://open-real-estate.info",
     "license": "free",
     "maintainer": {
