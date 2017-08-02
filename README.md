@@ -1,5 +1,5 @@
 # Open Real Estate app for YunoHost
-[![Install Hubzilla with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=ore)
+[![Install ORE with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=ore)
 <br>
 <b>website:</b>https://open-real-estate.info/ <br>
 <b>Version:</b> 1.20.1 <br>
