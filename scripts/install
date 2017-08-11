@@ -100,6 +100,9 @@ sudo chown -R www-data: $final_path
 
 # Set the app as temporarily public for curl call
 ynh_app_setting_set $app unprotected_uris "/"
+
+ynh_local_curl "en/install/main/config" "InstallForm[dbUser]=$db_name" "InstallForm[dbPass]=$db_pwd" "InstallForm[dbHost]=localhost" "InstallForm[dbPort]=3306" "InstallForm[dbName]=$db_pwd" "InstallForm[dbPrefix]=ore_ap_" "InstallForm[adminEmail]=$email" "InstallForm[adminName]=admin" "InstallForm[adminPass]=admin@123" "InstallForm[siteName]=Open Real Estate" "InstallForm[siteKeywords]=Open Real Estate  Keywords" "InstallForm[siteDescription]=Open Real Estate Description" "InstallForm[agreeLicense]=1" "yt0=Install"
+
 # Reload SSOwat config
 sudo yunohost app ssowatconf
 
