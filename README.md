@@ -6,6 +6,9 @@
 <b>Demo:</b> http://re-pro.monoray.net/en <br><br>
 <b> *******Currently ORE can only be installed on root path. Eg. ore.domain.tld or domain.tld******* </b>
 
+## License
+The upstream is non-free, see here for more details : https://open-real-estate.info/en/license
+
 ## Postinstallation
 <b>You will have to do postinstallation manually.</b>
 
