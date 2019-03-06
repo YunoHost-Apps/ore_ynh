@@ -6,7 +6,7 @@
         "en": "Open Real Estate package for YunoHost."
 },
     "url": "https://open-real-estate.info",
-    "license": "free",
+    "license": "non-free",
     "maintainer": {
         "name": "Anmol Sharma",
         "email": "anmol@datamol.in"
